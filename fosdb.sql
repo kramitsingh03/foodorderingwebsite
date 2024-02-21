@@ -157,8 +157,8 @@ CREATE TABLE `tblorderaddresses` (
 --
 
 INSERT INTO `tblorderaddresses` (`ID`, `UserId`, `Ordernumber`, `Flatnobuldngno`, `StreetName`, `Area`, `Landmark`, `City`, `OrderTime`, `OrderFinalStatus`) VALUES
-(1, '1', '409347008', 'H5534 ', 'XYZ Streer', 'ABC Area', 'test Landmark', 'New Delhi', '2023-06-04 16:34:14', NULL),
-(2, '3', '111500378', 'H 52312', 'XYZ Street', 'New Delhi', 'ABC Landmark', 'New Delhi', '2023-06-05 12:29:51', 'Food Delivered');
+(1, '1', '409347008', 'H5534 ', 'XYZ Streer', 'Patna', 'test Landmark', 'Patna', '2023-06-04 16:34:14', NULL),
+(2, '3', '111500378', 'H 52312', 'XYZ Street', 'Patna', 'ABC Landmark', 'Patn', '2023-06-05 12:29:51', 'Food Delivered');
 
 -- --------------------------------------------------------
 
@@ -206,10 +206,10 @@ CREATE TABLE `tbluser` (
 --
 
 INSERT INTO `tbluser` (`ID`, `FirstName`, `LastName`, `Email`, `MobileNumber`, `Password`, `RegDate`) VALUES
-(1, 'Anuj', 'Kumar', 'test@gmail.com', 1234567890, 'f925916e2754e5e03f75dd58a5733251', '2023-06-04 04:31:04'),
+(1, 'Amit', 'Kumar', 'test@gmail.com', 1234567890, 'f925916e2754e5e03f75dd58a5733251', '2023-06-04 04:31:04'),
 (3, 'Test', 'User', 'testuser@gmail.com', 1236547890, 'f925916e2754e5e03f75dd58a5733251', '2023-06-05 12:28:41'),
-(4, 'Piyush', 'Gupta', 'piyushmnm@gmail.com', 9695959595, 'e10adc3949ba59abbe56e057f20f883e', '2023-12-08 07:10:26'),
-(5, 'rohir', 'l', 'rohit@gmail.com', 8494832345, '123456', '2023-12-08 07:12:40');
+(4, 'Nitesh', 'Gupta', 'piyushmnm@gmail.com', 9695959595, 'e10adc3949ba59abbe56e057f20f883e', '2023-12-08 07:10:26'),
+(5, 'aaryaashree', 'l', 'rohit@gmail.com', 8494832345, '123456', '2023-12-08 07:12:40');
 
 --
 -- Indexes for dumped tables
